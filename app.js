@@ -10,7 +10,7 @@ var http = require('http')
     '\n\n<h1>By skypebot</h1>\n' +
 
     '\n\n<h1><a href="https://join.skype.com/bot/9862d53f-fe24-4359-9f42-9f6145b7a0f6"><img src="https://dev.botframework.com/Client/Images/Add-To-Skype-Buttons.png"/></a></h1>\n' + 
-    '<div id="content">"<iframe src='https://webchat.botframework.com/embed/bubu?s=YOUR_SECRET_HERE'></iframe>"</div>' + 
+    '<div id="content"><iframe src='https://webchat.botframework.com/embed/bubu?s=YOUR_SECRET_HERE'></iframe></div>' + 
     '\n\n');
   res.end();
  }).listen(port);
